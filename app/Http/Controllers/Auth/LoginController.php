@@ -25,7 +25,7 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/menu'; // Nukreipia į /menu po prisijungimo
+    protected $redirectTo = '/calendar/index'; // Nukreipia į /menu po prisijungimo
 
     /**
      * Create a new controller instance.
